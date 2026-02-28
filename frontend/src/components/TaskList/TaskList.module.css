@@ -1,0 +1,47 @@
+.wrapper {
+  overflow: hidden;
+  width: 100%;
+  position: relative;
+  height: 400px;
+  padding-top: 20px;
+}
+
+.track {
+  display: flex;
+  align-items: stretch;
+}
+
+.slide {
+  flex-shrink: 0;
+  padding: 0 8px;
+  display: flex;
+  justify-content: center;
+  box-sizing: border-box;
+  margin-bottom: 15px;
+}
+
+.staticList {
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+  padding: 0 8px;
+}
+
+.buttons {
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+  margin-top: 1rem;
+}
+
+.errorText {
+  color: #e74c3c;
+  text-align: center;
+}
+
+.wrapper p {
+  text-align: center;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #555;
+  padding-top: 2rem;
+}

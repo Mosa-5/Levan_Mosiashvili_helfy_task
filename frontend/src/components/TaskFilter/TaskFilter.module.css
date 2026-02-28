@@ -1,0 +1,47 @@
+.tabs {
+  display: flex;
+  justify-content: center;
+  background-color: #e8e8e0;
+  width: fit-content;
+  margin: 0 auto 1.5rem;
+  border-radius: 8px;
+  padding: 4px;
+  gap: 4px;
+}
+
+.tab {
+  padding: 8px 0;
+  width: 120px;
+  text-align: center;
+  cursor: pointer;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+  color: #777;
+  border-radius: 6px;
+  transition: color 0.2s, background-color 0.2s, box-shadow 0.2s;
+  user-select: none;
+}
+
+.tab:hover {
+  color: #333;
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+.active {
+  color: #fff;
+  background-color: #4361ee;
+
+}
+
+.active:hover {
+  color: #fff;
+  background-color: #3a56d4;
+}
+
+@media (max-width: 400px) {
+  .tab {
+    width: 90px;
+    font-size: 13px;
+  }
+}
